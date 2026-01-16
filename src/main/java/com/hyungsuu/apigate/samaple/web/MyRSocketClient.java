@@ -25,7 +25,6 @@ public class MyRSocketClient {
                 .route("service.route") // Specify the route
                 .data(message)         // Set the data payload
                 .retrieveMono(String.class); // Define the response type
- 
     }
     
 //  public Mono<String> sendRequestAndReceiveResponse(String dataToSend) {
